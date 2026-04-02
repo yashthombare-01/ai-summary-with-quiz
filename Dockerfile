@@ -19,4 +19,5 @@ ENV PORT=7860
 EXPOSE 7860
 
 # Use Gunicorn as a production runner pointing at the backend folder
-CMD ["gunicorn", "backend.App:app", "--bind", "0.0.0.0:7860", "--timeout", "1200"]
+# Render provides the port via $PORT environment variable
+CMD ["sh", "-c", "gunicorn backend.App:app --bind 0.0.0.0:${PORT:-7860} --timeout 1200"]
