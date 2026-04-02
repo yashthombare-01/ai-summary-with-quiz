@@ -1,0 +1,10 @@
+Flask==3.1.2
+flask-cors==6.0.2
+transformers==4.36.2
+torch==2.10.0
+youtube-transcript-api==1.2.4
+PyMuPDF==1.27.1
+requests==2.32.5
+yt-dlp==2026.3.17
+faster-whisper==1.2.1
+gunicorn==23.0.0

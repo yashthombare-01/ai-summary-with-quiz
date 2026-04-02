@@ -1,0 +1,12 @@
+env/
+node_modules/
+.codex/
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+backend/.env
+cookies.txt
+backend/cookies.txt
